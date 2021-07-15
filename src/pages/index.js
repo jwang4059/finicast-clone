@@ -1,9 +1,18 @@
 import * as React from "react";
 import Layout from "../components/layout";
 
-// markup
 const IndexPage = () => {
-	return <Layout>Hello World.</Layout>;
+	return (
+		<Layout>
+			<section></section>
+			<section></section>
+			<section></section>
+			<section></section>
+			<section className="container">
+				<button className="cta">Get in Touch to Learn More</button>
+			</section>
+		</Layout>
+	);
 };
 
 export default IndexPage;

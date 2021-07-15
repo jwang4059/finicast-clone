@@ -18,19 +18,19 @@
 	flex-direction: row;
 	max-width: variables.$default-max-width;
 	width: 100%;
-	padding: 1rem;
+	padding: 1rem 2rem;
 }
 
-.logo {
+.header-logo {
 	flex-shrink: 0;
 }
 
-.navbar {
+.header-navbar {
 	display: none;
 }
 
 @media only screen and (min-width: 768px) {
-	.navbar {
+	.header-navbar {
 		flex-grow: 1;
 		display: flex;
 		flex-direction: row;
@@ -38,7 +38,7 @@
 		align-items: center;
 	}
 
-	.navbar__list {
+	.header-navbar__list {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
@@ -47,12 +47,12 @@
 		margin: 0;
 	}
 
-	.navbar__item {
+	.header-navbar__item {
 		margin: 0 1rem;
 		list-style-type: none;
 	}
 
-	.navbar__link {
+	.header-navbar__link {
 		color: #000;
 		text-decoration: none;
 	}
