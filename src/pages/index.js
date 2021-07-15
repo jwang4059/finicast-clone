@@ -1,4 +1,5 @@
 import * as React from "react";
+import Button from "../components/button";
 import Layout from "../components/layout";
 
 const IndexPage = () => {
@@ -9,7 +10,7 @@ const IndexPage = () => {
 			<section></section>
 			<section></section>
 			<section className="container">
-				<button className="cta">Get in Touch to Learn More</button>
+				<Button className="cta">Get in Touch to Learn More</Button>
 			</section>
 		</Layout>
 	);

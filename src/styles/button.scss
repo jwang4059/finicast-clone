@@ -1,0 +1,11 @@
+@use "variables";
+
+button {
+	background-color: variables.$primary-color;
+	color: white;
+	border-radius: 1.5rem;
+}
+
+.cta {
+	padding: 1rem 4rem;
+}
