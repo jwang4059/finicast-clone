@@ -8,7 +8,28 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<section></section>
-			<section></section>
+			<section className="container">
+				<div className="card-container">
+					<Card
+						heading="Business Intelligence"
+						info="Centrally manage historical data, forecasts and business logic."
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb3f63f59d0a_icons8-analyze.svg"
+						background
+					/>
+					<Card
+						heading="Financial Planning & Analysis"
+						info="Build models that scale and automate FP&A workflows."
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb402af59d76_icons8-ratings.svg"
+						background
+					/>
+					<Card
+						heading="Visual Collaboration"
+						info="Create and share beautiful dashboards and collaborate in real-time."
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb7b74f59d01_icons8-bank-cards%20(1).svg"
+						background
+					/>
+				</div>
+			</section>
 			<section></section>
 			<section className="container">
 				<div className="card-container">
