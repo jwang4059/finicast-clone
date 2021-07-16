@@ -31,6 +31,8 @@
 	border-color: white;
 	color: white;
 	padding: 1rem 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .footer-navbar {
@@ -53,6 +55,11 @@
 
 .footer-navbar__item {
 	list-style-type: none;
+}
+
+.footer-navbar__link {
+	text-decoration: none;
+	color: gray;
 }
 
 .footer-logo {

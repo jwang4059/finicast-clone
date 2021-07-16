@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "gatsby";
 import "../styles/footer.scss";
 
 const Logo = () => {
 	return (
-		<div className="footer-logo">
+		<Link className="footer-logo" to="/">
 			<img
 				className="footer-logo__image"
 				src="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5e45e151f236a82c108b5b68_logo10.svg"
@@ -14,7 +15,7 @@ const Logo = () => {
 				src="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5e45cc9946e3c4dd2aaf3a86_logo9.svg"
 				alt=""
 			/>
-		</div>
+		</Link>
 	);
 };
 
@@ -45,13 +46,24 @@ const Navbar = () => {
 			<span className="footer-navbar__heading">About Us</span>
 			<ul className="footer-navbar__list">
 				<li className="footer-navbar__item">
-					<a className="footer-navbar__link">Who We Are</a>
+					<Link className="footer-navbar__link" to="/about">
+						Who We Are
+					</Link>
 				</li>
 				<li className="footer-navbar__item">
-					<a className="footer-navbar__link">Careers</a>
+					<a
+						className="footer-navbar__link"
+						href="https://www.linkedin.com/company/finicast/jobs/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Careers
+					</a>
 				</li>
 				<li className="footer-navbar__item">
-					<a className="footer-navbar__link">Contact Us</a>
+					<Link className="footer-navbar__link" to="/contact">
+						Contact Us
+					</Link>
 				</li>
 			</ul>
 		</nav>

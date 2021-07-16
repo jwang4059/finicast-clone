@@ -21,11 +21,11 @@ const IndexPage = () => {
 				<div className="overlay">
 					<span className="overlay__caption">Forecast infinitely</span>
 					<div className="overlay__content">
-						<h1>
+						<h1 className="home-banner-text">
 							Business Intelligence, FP&A and Collaboration in One Platform
 						</h1>
 						<Link to="/contact">
-							<Button className="cta">Get Started</Button>
+							<Button className="start">Get Started</Button>
 						</Link>
 					</div>
 				</div>
@@ -63,7 +63,9 @@ const IndexPage = () => {
 				</div>
 			</section>
 			<section className="container role-background">
-				<h2>UNIFY AND ANALYZE data from every part of your company</h2>
+				<h2 className="role-description">
+					UNIFY AND ANALYZE data from every part of your company
+				</h2>
 				<div className="role-container">
 					<Role
 						heading="Finance"
