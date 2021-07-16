@@ -5,6 +5,11 @@ button {
 	color: white;
 	border-radius: 1.5rem;
 	border-color: transparent;
+	cursor: pointer;
+}
+
+.navbar__button {
+	padding: 0.5rem 2rem;
 }
 
 .cta {

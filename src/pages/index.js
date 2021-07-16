@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Button from "../components/button";
 import Card from "../components/card";
 import Layout from "../components/layout";
@@ -23,7 +24,9 @@ const IndexPage = () => {
 						<h1>
 							Business Intelligence, FP&A and Collaboration in One Platform
 						</h1>
-						<Button>Get Started</Button>
+						<Link to="/contact">
+							<Button className="cta">Get Started</Button>
+						</Link>
 					</div>
 				</div>
 				<video autoPlay muted loop>
@@ -123,7 +126,9 @@ const IndexPage = () => {
 				</div>
 			</section>
 			<section className="container">
-				<Button>Get in Touch to Learn More</Button>
+				<Link to="/contact">
+					<Button className="cta">Get in Touch to Learn More</Button>
+				</Link>
 			</section>
 		</Layout>
 	);
