@@ -9,6 +9,8 @@
 
 ## 🚀 Quick start
 
+https://finicastclone.netlify.app/
+
 1.  **Project Commands**
 
 
@@ -30,7 +32,7 @@
 
     The goal of this project was to rebuild Finicast's current website and make it more responsive and user friendly. As of now, Finicast has 3 main pages (home, about, and contact). Since I was only rebulding the frontend portion of the website, I decided to use GatsbyJS because this library comes with built in client side navigation and is a good framework to work with if you are only working with static files. I used Sass because I know it's popular and wanted to learn something new. On top of all of that, I used Eslint + Prettier to help me maintain clean, readable code.
 
-4.  **Changes I've made**
+4.  **Problems I wanted to fix**
 
 <img src="https://user-images.githubusercontent.com/29056808/125938457-6501d887-2ba8-4adb-ab83-18288845864a.png" alt="" width=300> <img src="https://user-images.githubusercontent.com/29056808/125938542-f29b9350-6643-4c06-a0e0-f51843035b88.png" alt="" width=300>
 
