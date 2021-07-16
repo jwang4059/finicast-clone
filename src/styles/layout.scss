@@ -8,7 +8,6 @@ body {
 }
 
 main {
-	padding: 1rem;
 	margin-top: 4rem;
 }
 
@@ -28,7 +27,9 @@ footer {
 
 .container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem;
 	margin-bottom: 2rem;
 }

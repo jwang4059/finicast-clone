@@ -4,10 +4,35 @@ import Card from "../components/card";
 import Layout from "../components/layout";
 import "../styles/index.scss";
 
+const Role = ({ heading, imgSrc, imgAlt }) => {
+	return (
+		<div className="role">
+			<span className="role-heading">{heading}</span>
+			<img className="role-image" src={imgSrc} alt={imgAlt || ""} />
+		</div>
+	);
+};
+
 const IndexPage = () => {
 	return (
 		<Layout>
-			<section></section>
+			<section className="banner">
+				<div className="overlay">
+					<span>Forecast infinitely</span>
+					<h1>Business Intelligence, FP&A and Collaboration in One Platform</h1>
+					<Button>Get Started</Button>
+				</div>
+				<video autoPlay muted loop>
+					<source
+						src="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb108af59dce_business-worker-at-work-5FENLW2-transcode.mp4"
+						type="video/mp4"
+					/>
+					<source
+						src="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb108af59dce_business-worker-at-work-5FENLW2-transcode.webm"
+						type="video/mp4"
+					/>
+				</video>
+			</section>
 			<section className="container">
 				<div className="card-container">
 					<Card
@@ -30,7 +55,35 @@ const IndexPage = () => {
 					/>
 				</div>
 			</section>
-			<section></section>
+			<section className="container role-background">
+				<h2>UNIFY AND ANALYZE data from every part of your company</h2>
+				<div className="role-container">
+					<Role
+						heading="Finance"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb61bef59d93_icons8-profit.svg"
+					/>
+					<Role
+						heading="Accounting"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb71bcf59cff_icons8-online-money-transfer%20(2).svg"
+					/>
+					<Role
+						heading="Workforce"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb7437f59d7a_icons8-team%20(1).svg"
+					/>
+					<Role
+						heading="Sales"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb85f3f59cfd_icons8-coin-in-hand%20(1).svg"
+					/>
+					<Role
+						heading="Marketing"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bbca8df59d2c_icons8-callback.svg"
+					/>
+					<Role
+						heading="IT"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb6c30f59d7b_icons8-folder.svg"
+					/>
+				</div>
+			</section>
 			<section className="container">
 				<div className="card-container">
 					<Card
