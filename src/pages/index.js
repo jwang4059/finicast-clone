@@ -18,9 +18,13 @@ const IndexPage = () => {
 		<Layout>
 			<section className="banner">
 				<div className="overlay">
-					<span>Forecast infinitely</span>
-					<h1>Business Intelligence, FP&A and Collaboration in One Platform</h1>
-					<Button>Get Started</Button>
+					<span className="overlay__caption">Forecast infinitely</span>
+					<div className="overlay__content">
+						<h1>
+							Business Intelligence, FP&A and Collaboration in One Platform
+						</h1>
+						<Button>Get Started</Button>
+					</div>
 				</div>
 				<video autoPlay muted loop>
 					<source

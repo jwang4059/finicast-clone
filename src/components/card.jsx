@@ -7,7 +7,9 @@ const Card = ({ heading, info, imgSrc, imgAlt, background }) => {
 			<div className={background ? "card-image-container" : ""}>
 				<img className="card-image" src={imgSrc} alt={imgAlt || ""} />
 			</div>
-			<h2 className="card-heading">{heading}</h2>
+			<div className="card-heading-wrapper">
+				<h2 className="card-heading">{heading}</h2>
+			</div>
 			<p className="card-info">{info}</p>
 		</div>
 	);
