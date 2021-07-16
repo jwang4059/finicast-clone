@@ -27,9 +27,8 @@ footer {
 }
 
 .container {
-	max-width: variables.$default-max-width;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	margin-bottom: 2rem;
 }

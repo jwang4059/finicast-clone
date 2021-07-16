@@ -1,6 +1,8 @@
 import * as React from "react";
 import Button from "../components/button";
+import Card from "../components/card";
 import Layout from "../components/layout";
+import "../styles/index.scss";
 
 const IndexPage = () => {
 	return (
@@ -8,9 +10,42 @@ const IndexPage = () => {
 			<section></section>
 			<section></section>
 			<section></section>
-			<section></section>
 			<section className="container">
-				<Button className="cta">Get in Touch to Learn More</Button>
+				<div className="card-container">
+					<Card
+						heading="Pivot-based Modelling"
+						info="Define a model once and repeat it across thousands of permutations"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bbaef6f59dc1_icons8-broken-link.svg"
+					/>
+					<Card
+						heading="Fast and Scalable"
+						info="Create detailed models that trace back to original data sources"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb6072f59d92_icons8-profit%20(1).svg"
+					/>
+					<Card
+						heading="Familiar Formula Syntax"
+						info="Build and audit models with a familiar formula syntax"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb6a6cf59ce0_icons8-treatment.svg"
+					/>
+					<Card
+						heading="Version Control"
+						info="Collaborate in real-time with a sophisticated version control system"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bbea1df59ce9_icons8-neutral-trading-64.png"
+					/>
+					<Card
+						heading="Beautiful Interface"
+						info="Model with ease using an interface designed by analysts"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb6f45f59ce2_icons8-bank-cards.svg"
+					/>
+					<Card
+						heading="Built for Integrations"
+						info="Our API-first engineering approach connects data seamlessly"
+						imgSrc="https://global-uploads.webflow.com/5deea2e254c6bb904cf59c96/5deea2e254c6bb498bf59ce8_icons8-online-money-transfer%20(1).svg"
+					/>
+				</div>
+			</section>
+			<section className="container">
+				<Button>Get in Touch to Learn More</Button>
 			</section>
 		</Layout>
 	);
