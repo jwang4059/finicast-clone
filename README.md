@@ -34,15 +34,15 @@ https://finicastclone.netlify.app/
 
 4.  **Problems I wanted to fix**
 
-<img src="https://user-images.githubusercontent.com/29056808/125938457-6501d887-2ba8-4adb-ab83-18288845864a.png" alt="" width=300> <img src="https://user-images.githubusercontent.com/29056808/125938542-f29b9350-6643-4c06-a0e0-f51843035b88.png" alt="" width=300>
+![image](https://user-images.githubusercontent.com/29056808/126589010-ee9b1944-6762-4bf3-a7d1-68776495f657.png)
 
 - In the first example, I wanted to address the footer and how the buttons looked after resizing. I was able to clean up some of the spacing problem using CSS grids.
 
-<img src="https://user-images.githubusercontent.com/29056808/125938492-df4fcc7f-0932-481f-ba75-2604aac279ca.png" alt="" width=300> <img src="https://user-images.githubusercontent.com/29056808/125938553-5bca2ff7-fe04-4da3-855c-698166bfd2d7.png" alt="" width=300>
+![image](https://user-images.githubusercontent.com/29056808/126589323-59794da0-b1e0-439d-9ab8-a9bfe972d108.png)
 
 - In the next example, I wanted to address the spacing between each person. Here I decided to use only one column, in order to keep the components from overlapping.
 
-<img src="https://user-images.githubusercontent.com/29056808/125938511-060fd098-eea2-4029-ba72-7ff865f0aeec.png" alt="" width=300> <img src="https://user-images.githubusercontent.com/29056808/125938571-8b5d6fdf-6f26-4f6e-85e7-43620cd7bc1f.png" alt="" width=300>
+![image](https://user-images.githubusercontent.com/29056808/126589690-0cd145e4-5c61-4a71-9fc3-e3f8590388e9.png)
 
 - In the final example, I wanted to fix the extra space you get on the side of the screen. I think I was able to remove the random space by managing my padding and margins.
 
