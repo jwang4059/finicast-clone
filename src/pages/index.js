@@ -64,7 +64,7 @@ const IndexPage = () => {
 			</section>
 			<section className="container">
 				<iframe
-					src={process.env.WIDGET_URL}
+					src={process.env.GATSBY_WIDGET_URL}
 					title="Widget"
 					width={600}
 					height={450}
