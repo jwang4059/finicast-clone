@@ -62,6 +62,14 @@ const IndexPage = () => {
 					/>
 				</div>
 			</section>
+			<section className="container">
+				<iframe
+					src={process.env.WIDGET_URL}
+					title="Widget"
+					width={600}
+					height={450}
+				/>
+			</section>
 			<section className="container role-background">
 				<h2 className="role-description">
 					UNIFY AND ANALYZE data from every part of your company
